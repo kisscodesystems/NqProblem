@@ -7,13 +7,13 @@ Date: 01.01.2018.
 0. ABSTRACT
 
   There is an existing and non-empty subset of algorithms in which the elements
-  can resolve the N figures ( N queens and its extensions ) problem. This
+  can resolve the N figures ( N queens and its extensions ) problem. These
   implementations have the property that the Running time of them will be
   increased dramatically as the size of the chessboard ( and the number of the
   put figures ) increases.
   The current world record is known as 27 using queens so the possible valid
-  positions (no queens attack each others in these every placings) are known and
-  counted in this size of the chessboard.
+  positions ( no queens attack each others in these every placings ) are known
+  and counted in this size of the chessboard.
   There are many attempts to reduce the Running time of that implementations
   ( using bitwise operations, using symmetry, using precalculated attacking map
   and only valid positions, etc. ) but the tendency cannot be changed
@@ -21,7 +21,7 @@ Date: 01.01.2018.
   could be known on the chessboard for example in size 100, but we cannot know
   this information. We would like to show that it is not possible to calculate
   the valid positions of the N chess figures and to count them quickly or in
-  polynomial time.
+  Polynomial running time.
   The P!=NP suspicion can be confuted by solving the N queens problem quickly,
   anyway, which is one of the millennium problems.
 
@@ -37,7 +37,7 @@ Date: 01.01.2018.
                                                     12 13 14 15
   1.3  Good position
        this property is declared between any 2 elements of C: Ci and Cj ( i,j
-       contained by N and i,j <= D ^ 2 - 1 ) and means that that 2 element are
+       contained by N and i,j <= D ^ 2 - 1 ) and means that that 2 elements are
        not under attack by each other
   1.4  Good placing
        elements in count D of C Chess board in which every 2 elements are Good
@@ -60,16 +60,16 @@ Date: 01.01.2018.
   1.9  Running time ( TR )
        the full time duration while the implementation of A can start and can
        end its running so the difference between the end and start times
-       TR depends on the number of the CPU commands to execute only
+       TR only depends on the number of the CPU commands to execute
        it depends on the value of D indirectly
   1.10 Polynomial running time
        there is a k positive integer as the Running time of implementation of A
-       which is O ( D ^ k ) to any value of D
+       is O ( D ^ k ) to any value of D
   
 2. ANALYSIS
 
   2.1 Assumption: it is possible to to solve the N chess figures problem by
-                  running the implementation of A in polynomial time.
+                  running the implementation of A in Polynomial running time.
   
   2.2 The basic expectations of the N figure problem to the A are:
   - be able to determine the property of Good position from all elements of any
@@ -197,11 +197,11 @@ Date: 01.01.2018.
   
 3. CONCLUSIONS
   
-  3.1 The above logic tells us that quick and accordingly to 1.10 Running time
+  3.1 The above logic tells us that quick and Running time accordingly to 1.10 
   is not possible while running the N figure problem solver implementation of A
   algorithm.
   
-  3.2 It can be seen from ( 13 ) that in case of T0 = 0 would be true the 2.1
+  3.2 It can be seen from ( 13 ) that 2.1 would be true in case of T0 = 0
   to any D using a constant k value. But having this, the implementation of A
   could decide a Good placing within 0 time which supposes infinitely fast
   computer, but this is impossible to build by our current knowledge.
