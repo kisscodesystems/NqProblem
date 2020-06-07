@@ -1,4 +1,4 @@
-# NqProblemExtended
+# NqProblem
 Extended 9 in 1 solution for the good old N Queens problem. Completion problem is also done.
 
   We  give  a  solution  which   considers  the  problem  from  a  whole
@@ -11,4 +11,4 @@ Extended 9 in 1 solution for the good old N Queens problem. Completion problem i
   
   Note: the board in size N is an ordered sequence between 0 and N^2 - 1
   
-  Read more: https://openso.kisscodesystems.com
+  Read more: http://kcsopensource.com
