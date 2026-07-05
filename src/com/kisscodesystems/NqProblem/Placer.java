@@ -71,7 +71,7 @@ final class Placer {
     }
     outprintln("]");
     // We also want to display the number of found solution to this case.
-    int c = found;
+    long c = found;
     if (pieceToPlace < dimension) {
       if (to - from >= dimension - pieceToPlace) {
         int count;
@@ -120,7 +120,7 @@ final class Placer {
       if (!thisIsRotatedVersion()) {
         // This solution has to be saved.
         for (int i = 0; i < dimension; i++) {
-          foundPathes[found][i] = currPath[i];
+          foundPathes[(int) found][i] = currPath[i];
         }
         found++;
       } else {
@@ -144,7 +144,7 @@ final class Placer {
       outprint(padTo("" + currPath[i], 4));
     }
     outprintln("]");
-    int c = found;
+    long c = found;
     if (pieceToPlace < dimension) {
       if (to - from >= dimension - pieceToPlace) {
         int count;
@@ -160,7 +160,7 @@ final class Placer {
     } else {
       if (!thisIsRotatedVersion()) {
         for (int i = 0; i < dimension; i++) {
-          foundPathes[found][i] = currPath[i];
+          foundPathes[(int) found][i] = currPath[i];
         }
         found++;
         printPs();
@@ -233,7 +233,7 @@ final class Placer {
       outprint(padTo("" + currPath[i], 4));
     }
     outprintln("]");
-    int c = found;
+    long c = found;
     if (pieceToPlace < dimension) {
       if (to - from >= dimension - pieceToPlace) {
         if (rowOfPiece[workingArray[from]] == pieceToPlace) {
@@ -295,7 +295,7 @@ final class Placer {
     } else {
       if (!thisIsRotatedVersion()) {
         for (int i = 0; i < dimension; i++) {
-          foundPathes[found][i] = currPath[i];
+          foundPathes[(int) found][i] = currPath[i];
         }
         found++;
       } else {
@@ -318,7 +318,7 @@ final class Placer {
       outprint(padTo("" + currPath[i], 4));
     }
     outprintln("]");
-    int c = found;
+    long c = found;
     if (pieceToPlace < dimension) {
       if (to - from >= dimension - pieceToPlace) {
         if (rowOfPiece[workingArray[from]] == pieceToPlace) {
@@ -344,7 +344,7 @@ final class Placer {
     } else {
       if (!thisIsRotatedVersion()) {
         for (int i = 0; i < dimension; i++) {
-          foundPathes[found][i] = currPath[i];
+          foundPathes[(int) found][i] = currPath[i];
         }
         found++;
         printPs();
@@ -401,7 +401,7 @@ final class Placer {
       outprint(padTo("" + currPath[i], 4));
     }
     outprintln("]");
-    int c = found;
+    long c = found;
     if (to - from >= dimension - pieceToPlace) {
       int count;
       for (int i = from; i < to && found == 0; i++) {
@@ -476,7 +476,7 @@ final class Placer {
       outprint(padTo("" + currPath[i], 4));
     }
     outprintln("]");
-    int c = found;
+    long c = found;
     if (to - from >= dimension - pieceToPlace) {
       if (rowOfPiece[workingArray[from]] == pieceToPlace) {
         currPath[pieceToPlace] = workingArray[from];
@@ -704,7 +704,7 @@ final class Placer {
     } else {
       if (!thisIsRotatedVersion()) {
         for (int i = 0; i < dimension; i++) {
-          foundPathes[found][i] = currPath[i];
+          foundPathes[(int) found][i] = currPath[i];
         }
         found++;
       } else {
@@ -752,7 +752,7 @@ final class Placer {
     } else {
       if (!thisIsRotatedVersion()) {
         for (int i = 0; i < dimension; i++) {
-          foundPathes[found][i] = currPath[i];
+          foundPathes[(int) found][i] = currPath[i];
         }
         found++;
       } else {

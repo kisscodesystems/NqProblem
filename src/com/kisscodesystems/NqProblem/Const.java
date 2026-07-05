@@ -6,7 +6,7 @@ package com.kisscodesystems.NqProblem;
  */
 final class Const {
   /** Version of the application. */
-  static final String VERSION = "2.0";
+  static final String VERSION = "2.1";
 
   /** Release date of the current version. */
   static final String RELEASED = "07-04-2026";

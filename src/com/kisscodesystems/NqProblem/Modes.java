@@ -46,7 +46,7 @@ final class Modes {
    */
   static void doImproved02(long startDate) {
     outprintln("\n ( case : improved 02 )");
-    int foundToThisPiece = 0;
+    long foundToThisPiece = 0;
     int count;
     if (BISHOP.equals(pieces)) {
       for (int i = 0; i < dimensionD && found == 0; i++) {
@@ -125,7 +125,7 @@ final class Modes {
    */
   static void doImproved05(long startDate) {
     outprintln("\n ( case : improved 05 )");
-    int foundToThisPiece = 0;
+    long foundToThisPiece = 0;
     int count;
     if (BISHOP.equals(pieces)) {
       for (int i = 0; i < dimensionD; i++) {
@@ -191,7 +191,7 @@ final class Modes {
    */
   static void doImproved08(long startDate) {
     outprintln("\n ( case : improved 08 )");
-    int foundToThisPiece = 0;
+    long foundToThisPiece = 0;
     int count;
     for (int i = 0; i < dimensionD; i++) {
       currPath[0] = workingArray[i];
@@ -238,7 +238,7 @@ final class Modes {
    */
   static void doImproved11(long startDate) {
     outprintln("\n ( case : improved 11 )");
-    int foundToThisPiece = 0;
+    long foundToThisPiece = 0;
     int count;
     if (BISHOP.equals(pieces)) {
       for (int i = 0; i < dimensionD; i++) {
@@ -304,7 +304,7 @@ final class Modes {
    */
   static void doImproved14(long startDate) {
     outprintln("\n ( case : improved 14 )");
-    int foundToThisPiece = 0;
+    long foundToThisPiece = 0;
     int count;
     for (int i = 0; i < dimensionD; i++) {
       currPath[0] = workingArray[i];

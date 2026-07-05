@@ -45,10 +45,10 @@ final class State {
    * situation a placing found as a previously found but rotated solution also becomes a dead
    * solution, and in the original solution whenever a hit check fails.
    */
-  static int found = 0;
+  static long found = 0;
 
   /** The number of dead (unusable) piece placings. See {@link #found} for the details. */
-  static int deads = 0;
+  static long deads = 0;
 
   /** Cached square of the dimension (dimension * dimension). */
   static int dimensionD = 0;
@@ -138,7 +138,7 @@ final class State {
    *
    * @param f the number of found solutions to add
    */
-  static synchronized void foundInc(int f) {
+  static synchronized void foundInc(long f) {
     found += f;
   }
 
@@ -148,7 +148,7 @@ final class State {
    *
    * @param d the number of dead placings to add
    */
-  static synchronized void deadsInc(int d) {
+  static synchronized void deadsInc(long d) {
     deads += d;
   }
 }
