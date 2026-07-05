@@ -17,10 +17,10 @@ final class NqProblemWork implements Runnable {
   private int pos = 0;
 
   /** Per-thread copy of the found counter. */
-  private int found = 0;
+  private long found = 0;
 
   /** Per-thread copy of the dead counter. */
-  private int deads = 0;
+  private long deads = 0;
 
   /** Per-thread copy of the current path. */
   private int[] currPath = new int[dimension];

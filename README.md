@@ -10,7 +10,7 @@ problem).
 
 - **Developed by:** Jozsef Kiss — KissCode Systems Kft
 - **License:** GNU General Public License, version 3
-- **Current version:** 2.0
+- **Current version:** 2.1
 
 ## Concept
 

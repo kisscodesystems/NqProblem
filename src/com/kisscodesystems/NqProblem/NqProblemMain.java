@@ -10,13 +10,14 @@
  **
  ** Published : 01.01.2018
  **
- ** Current version : 1.0
+ ** Current version : 2.1
  **
  ** Developed by : Jozsef Kiss KissCode Systems Kft <https://kcsops.kisscodesystems.com>
  **
  ** Change log : 1.0 - 01.01.2018 Initial release.
  **              1.1 - 31-12-2018 Small updates.
  **              2.0 - 07.04.2026 Restructure the code.
+ **              2.1 - 07.04.2026 Small fixes.
  **
  ** See NqProblem txt or pdf for more information.
  */
