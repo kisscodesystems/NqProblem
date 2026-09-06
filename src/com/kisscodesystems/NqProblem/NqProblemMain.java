@@ -1,25 +1,25 @@
-/*
- ** NqProblem application.
- **
- ** Description : This program was born to play around the N Queens Problem. We give a solution which
- ** considers the problem from a whole different aspect and splits the actual calculation from the
- ** real rules of the chess game. In this way, the calculations of rooks and bishops are also
- ** available as well as their super or awesome versions. (super means that the pieces can also
- ** attack as a knight and) (awesome means the above but till the edge of the chessboard) Preplaced
- ** chess pieces are also available to solve N Queens Completion problem.
- **
- ** Published : 01.01.2018
- **
- ** Current version : 2.1
- **
- ** Developed by : Jozsef Kiss KissCode Systems Kft <https://kcsops.kisscodesystems.com>
- **
- ** Change log : 1.0 - 01.01.2018 Initial release.
- **              1.1 - 31-12-2018 Small updates.
- **              2.0 - 07.04.2026 Restructure the code.
- **              2.1 - 07.04.2026 Small fixes.
- **
- ** See NqProblem txt or pdf for more information.
+/**
+ * NqProblem application.
+ *
+ * Description : This program was born to play around the N Queens Problem. We give a solution which
+ * considers the problem from a whole different aspect and splits the actual calculation from the
+ * real rules of the chess game. In this way, the calculations of rooks and bishops are also
+ * available as well as their super or awesome versions. (super means that the pieces can also
+ * attack as a knight and) (awesome means the above but till the edge of the chessboard) Preplaced
+ * chess pieces are also available to solve N Queens Completion problem.
+ *
+ * Published : 01.01.2018
+ *
+ * Current version : 2.1
+ *
+ * Developed by : Jozsef Kiss KissCode Systems Kft <https://kcsops.kisscodesystems.com>
+ *
+ * Change log : 1.0 - 01.01.2018 Initial release.
+ *              1.1 - 31-12-2018 Small updates.
+ *              2.0 - 07.04.2026 Restructure the code.
+ *              2.1 - 07.04.2026 Small fixes.
+ *
+ * See NqProblem txt or pdf for more information.
  */
 package com.kisscodesystems.NqProblem;
 
