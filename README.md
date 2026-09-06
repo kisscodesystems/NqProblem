@@ -118,7 +118,15 @@ NqProblem is a single-package, dependency-free Java program. Building it is just
 `javac` compile plus packaging the runnable jar (run from the repository root):
 
 ```bash
-./NqProblem_build.sh
+./NqProblem_build_linux.sh
+```
+
+```bash
+./NqProblem_build_macos.sh
+```
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\NqProblem_build_windows.ps1
 ```
 
 This produces `NqProblem.jar` in the repository root. A JDK 8 or newer is
